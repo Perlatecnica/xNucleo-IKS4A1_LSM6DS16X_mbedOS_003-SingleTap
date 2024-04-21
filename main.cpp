@@ -26,7 +26,7 @@ SOFTWARE.
 */
 
 #include "mbed.h"
-#include "LSM6DSV16X.h"
+#include "plt_iks4a1.h"
 
 LSM6DSV16X AccGyr(I2C_SDA, I2C_SCL); 
 Serial pc(USBTX, USBRX);
